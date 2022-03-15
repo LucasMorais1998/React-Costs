@@ -58,6 +58,7 @@
   margin-top: 1.2em;
   display: flex;
   align-items: center;
+  
 }
 
 .project_card_actions a,
@@ -72,12 +73,13 @@
   cursor: pointer;
   border: 1px solid #222;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   transition: 0.5s all ease-in-out;
+  
 }
 
-.project_card_actions svg {
+.project_card_actions button svg, a svg {
   margin-right: .5em;
 }
 

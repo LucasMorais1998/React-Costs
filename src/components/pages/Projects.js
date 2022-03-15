@@ -1,15 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Message from '../layout/Message';
 import Container from '../layout/Container';
-import Loading from '../layout/Loading';
 import LinkButton from '../layout/LinkButton';
+import Loading from '../layout/Loading';
+import Message from '../layout/Message';
 import ProjectCard from '../project/ProjectCard';
 
-
 import styles from './Projects.module.css';
-
 
 function Projects() {
 
@@ -27,7 +25,7 @@ function Projects() {
   useEffect(() => {
 
     setTimeout(() => {
-      fetch('http://localhost:5000/projects', {
+      fetch(`http://localhost:5000/projects`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'

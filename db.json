@@ -1,37 +1,55 @@
 {
   "projects": [
     {
-      "name": "Teste",
-      "budget": "700",
+      "name": "Projeto Teste",
+      "budget": "2000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "service": [],
+      "cost": 1999,
+      "services": [
+        {
+          "name": "Serviço Teste",
+          "cost": "1999",
+          "description": "Serviço teste irá testar a funcionalidade.",
+          "id": "53e3a270-aede-447e-a11d-94101bb0c546"
+        }
+      ],
       "id": 1
     },
     {
-      "name": "Teste 2",
-      "budget": "266",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "service": [],
-      "id": 2
-    },
-    {
-      "name": "Teste 3 ",
-      "budget": "2666",
+      "name": "Outro Projeto Teste",
+      "budget": "1000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
-      "service": [],
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Teste",
+      "budget": "233",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
       "id": 3
+    },
+    {
+      "name": "Teste",
+      "budget": "277",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
