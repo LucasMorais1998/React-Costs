@@ -26,7 +26,7 @@ function NewProject() {
       .then((data) => {
         
         // redirect
-        console.log(navigat)
+        
         navigate('/projects', { state: true });
         
       })
